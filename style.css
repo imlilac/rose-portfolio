@@ -1,0 +1,471 @@
+/* font */
+@import url(assets/font/rose-font.css);
+
+/* initial setting */
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Rose", sans-serif;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+/* ------------MOBILE SIZE----------- */
+/* ---------------------------------- */
+
+/* contaier */
+.container {
+   position: relative;
+   display: block;
+}
+
+/* navside ----------------------------------------------*/
+.nav_side {
+   display: none;
+}
+
+/* nav container --------------------------------------- */
+.nav_container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 0;
+   color: #012b55;
+   background-color: #fff;
+   padding: 40px 5%;
+}
+
+.nav_container .nav_logo h1 {
+   font-size: 26px;
+   font-weight: 600;
+   line-height: 26px;
+}
+
+.nav_container .nav_icon i {
+   font-size: 26px;
+}
+
+/* description ------------------------------------------*/
+.description {
+   width: 100%;
+   text-align: center;
+   padding-bottom: 46px;
+   padding-top: 38px;
+   padding-left: 12%;
+   padding-right: 12%;
+   background-color: #f7f8f9;
+}
+
+.description h1 {
+   font-size: 16px;
+   line-height: 18px;
+   margin-bottom: 7px;
+   color: #2e5173;
+   font-style: normal;
+   font-weight: 500;
+   display: inline-block;
+}
+
+.description p {
+   color: #597188;
+   font-size: 14px;
+   line-height: 20px;
+   margin-bottom: 0px;
+   margin-top: 13px;
+}
+/* cards ------------------------------------------------*/
+
+.cards {
+   margin-top: 5px;
+}
+
+.cards .item {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.cards .item .card {
+   margin: 5px 0;
+}
+
+.cards .item .card a {
+   width: 100%;
+   height: 50%;
+   text-decoration: none;
+   color: white;
+   position: relative;
+}
+
+.cards .item .card img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+}
+
+.overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition: 0.5s ease;
+   background-color: #083357d4;
+}
+
+.img_container:hover .overlay {
+   opacity: 1;
+}
+
+.text {
+   color: white;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+
+.cards .overlay .text p {
+   margin-bottom: 7px;
+   font-size: 14px;
+}
+
+.cards .overlay .text h3 {
+   font-size: 16px;
+}
+
+/* footer -----------------------------------------------*/
+.footer_container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 30px 0;
+}
+
+.footer_icons ul li {
+   display: inline-block;
+   text-decoration: none;
+   padding: 10px;
+   margin-right: 5px;
+   background-color: #e5e9ee;
+   border-radius: 100%;
+}
+
+.footer_icons .icon:hover {
+   background-color: #9ba8b6;
+}
+
+.footer_icons ul li a {
+   list-style: none;
+}
+
+.footer_icons ul li a i {
+   color: #012b55;
+   font-size: 17px;
+}
+
+.footer_text {
+   margin-top: 20px;
+   margin-bottom: 5px;
+   color: #949ea5;
+   font-size: 14px;
+}
+
+.footer_text a {
+   list-style: none;
+   text-decoration: none;
+   margin-top: 20px;
+   color: #adb9c4;
+}
+
+.footer_text a:hover {
+   color: #012b55;
+}
+
+/* top arrow-------------------------------------------- */
+.top_icon {
+   display: none;
+}
+
+/*  Mobile nav ----------------------------------------- */
+.mobile_nav {
+   width: 100%;
+   height: 100vh;
+   z-index: 10;
+   position: absolute;
+   top: 0;
+   left: 0;
+   text-align: center;
+   background-color: white;
+   display: none;
+}
+
+.mobile_nav .mobile_group .active {
+   padding-bottom: 30px;
+   font-size: 27px;
+   line-height: 32px;
+   color: #012b55;
+   font-style: normal;
+   font-weight: 600;
+}
+
+.mobile_nav .mobile_group li {
+   color: #41576d;
+   padding-bottom: 50px;
+   font-size: 26px;
+   line-height: 32px;
+   font-style: normal;
+   font-weight: 400;
+}
+
+.mobile_nav .mobile_contact a {
+   font-size: 22px;
+   line-height: 32px;
+   color: #012b55;
+   font-style: normal;
+   font-weight: 600;
+}
+
+.mobile_nav--container {
+   position: relative;
+   height: 100vh;
+}
+
+.close-icon {
+   text-align: right;
+   padding: 40px 20px 10px 0;
+}
+
+.close-icon i {
+   font-size: 26px;
+}
+
+.mobile_nav .mobile_icons {
+   text-align: center;
+   padding: 30px 0;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-top: 1px solid #949ea5;
+   min-height: 100px;
+   position: fixed;
+   bottom: 0;
+   background-color: #fff;
+}
+
+.mobile_icons ul li {
+   display: inline-block;
+   text-decoration: none;
+   padding: 20px;
+   margin-right: 5px;
+   background-color: #e5e9ee;
+   border-radius: 100%;
+}
+
+.mobile_icons .icon:hover {
+   background-color: #9ba8b6;
+}
+
+.mobile_icons ul li a {
+   list-style: none;
+}
+
+.mobile_icons ul li a i {
+   color: #012b55;
+   font-size: 20px;
+}
+
+/* ------------TABLET SIZE----------- */
+/* ---------------------------------- */
+
+@media (min-width: 600px) and (max-width: 900px) {
+   .cards .item {
+      display: flex;
+      flex-direction: row;
+      gap: 0.05%;
+   }
+   .cards .item .card {
+      margin: 2px;
+   }
+}
+
+/* ------------DESKTOP SIZE----------- */
+/* ---------------------------------- */
+
+@media (min-width: 900px) {
+   /* navside------------------------------------------- */
+   .nav_side {
+      display: block;
+   }
+
+   .container {
+      margin: 0 4%;
+      width: 92%;
+      display: flex;
+   }
+   .nav_container {
+      display: none;
+   }
+   /* cards --------------------------------------------*/
+   .cards .item {
+      display: flex;
+      flex-direction: row;
+      gap: 0.05%;
+   }
+   .cards .item .card {
+      margin: 2px;
+   }
+
+   .cards .overlay .text p {
+      font-size: 18px;
+   }
+
+   .cards .overlay .text h3 {
+      font-size: 20px;
+   }
+
+   /* description --------------------------------------*/
+   .description {
+      width: 100%;
+      text-align: center;
+      padding-top: 120px;
+      padding-bottom: 90px;
+      padding-left: 12%;
+      padding-right: 12%;
+      background-color: #f7f8f9;
+   }
+
+   .description h1 {
+      font-size: 28px;
+      line-height: 36px;
+      margin-bottom: 7px;
+      color: #012b55;
+      font-style: normal;
+      font-weight: 500;
+      display: inline-block;
+      font-style: normal;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      text-align: center;
+      text-transform: none;
+   }
+
+   .description p {
+      color: #597188;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px;
+      margin-bottom: 0px;
+      margin-top: 20px;
+      text-align: center;
+      text-transform: none;
+   }
+
+   /* footer -------------------------------------------*/
+   footer {
+      padding: 60px 0;
+   }
+
+   .footer_text,
+   .footer_text a {
+      margin-top: 30px;
+      margin-bottom: 5px;
+      color: #597188;
+      font-size: 18px;
+   }
+
+   /* main ---------------------------------------------*/
+   main {
+      width: 75%;
+   }
+
+   /* nav ---------------------------------------------*/
+   .nav_side {
+      width: 20%;
+      margin-right: 5%;
+      margin-top: 50px;
+   }
+   .nav_side .nav_logo h1 {
+      padding-bottom: 40px;
+      color: #012b55;
+   }
+   .nav_side .group {
+      padding-bottom: 15px;
+   }
+   .nav_side .group li a {
+      font-size: 16px;
+      line-height: 20px;
+      font-style: normal;
+      color: #41576d;
+   }
+   .active {
+      color: #012b55;
+      font-weight: 600;
+      font-size: 18px;
+   }
+   .nav_side .group li {
+      padding-bottom: 15px;
+      text-align: left;
+   }
+   .nav_side .nav_contact {
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 20px;
+      color: #012b55;
+      padding-bottom: 15px;
+   }
+   .footer_icons ul li {
+      display: inline-block;
+      text-decoration: none;
+      padding: 10px;
+      margin-top: 15px;
+      margin-right: 5px;
+      background-color: #e5e9ee;
+      border-radius: 100%;
+   }
+   .footer_icons ul .icon i {
+      font-size: 14px;
+   }
+
+   /* top arrow -------------------------------------- */
+   .top_icon {
+      color: #41576d;
+      font-family: bjpg;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+      text-transform: none;
+      background-color: transparent;
+      position: fixed;
+      right: 45px;
+      padding: 15px 20px;
+      background: rgba(1, 43, 85, 0.1);
+      border-radius: 5px;
+      display: block;
+      bottom: 40px;
+      height: 50px;
+      width: 50px;
+   }
+   .top_icon i {
+      font-size: 22px;
+   }
+}

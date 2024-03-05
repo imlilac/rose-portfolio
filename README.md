@@ -19,9 +19,9 @@ Users should be able to:
 -  It offers users an opportunity to explore the conversion of a sleek portfolio design into functional code, emphasizing responsiveness across various devices.
 -  Whether users aim to refine their HTML and CSS proficiency or seek inspiration for their projects, this demo provides valuable insights and practical experience.
 
-### Screenshot
+### Screenshot - Desktop view
 
-![](https://github.com/imlilac/instagram-card/blob/main/img/screen-1.png)
+![](https://github.com/imlilac/rose-portfolio/blob/main/assets/img/desktop.png)
 
 ## My process
 

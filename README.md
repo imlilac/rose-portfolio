@@ -23,16 +23,6 @@ Users should be able to:
 
 ![](https://github.com/imlilac/rose-portfolio/blob/main/assets/img/desktop.png)
 
-### Screenshot - Tablet view
-
-![](https://github.com/imlilac/rose-portfolio/blob/main/assets/img/tablet-size.png)
-
-### Screenshot - Mobile view
-
-![](https://github.com/imlilac/rose-portfolio/blob/main/assets/img/mobile-size.png)
-![](https://github.com/imlilac/rose-portfolio/blob/main/assets/img/mobile-menu.png)
-
-
 
 
 ## My process

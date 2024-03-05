@@ -1,8 +1,8 @@
-# Instagram Post
+# Rose Portfolio
 
-![logo](https://github.com/imlilac/instagram-card/blob/main/img/banner.jpg)
+![logo](https://github.com/imlilac/rose-portfolio/blob/main/assets/img/banner.jpg)
 
-Designing a simple instagram card using HTML5 & CSS.
+This project is about presenting a fully responsive rendition of a photographer's portfolio, originally designed in Adobe XD, through the implementation of HTML and CSS. 
 
 ## Table of contents
 
@@ -15,6 +15,9 @@ Designing a simple instagram card using HTML5 & CSS.
 Users should be able to:
 
 -  View the optimal layout for the site depending on their device's screen size
+-  This project is focused on showcasing a fully responsive rendition of a photographer's portfolio, originally designed in Adobe XD, using HTML and CSS.
+-  It offers users an opportunity to explore the conversion of a sleek portfolio design into functional code, emphasizing responsiveness across various devices.
+-  Whether users aim to refine their HTML and CSS proficiency or seek inspiration for their projects, this demo provides valuable insights and practical experience.
 
 ### Screenshot
 
@@ -29,4 +32,4 @@ Users should be able to:
 
 ## Author
 
--  Github - [ililac](https://github.com/ililac)
+-  Github - [imlilac](https://github.com/imlilac)
